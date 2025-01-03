@@ -1,0 +1,29 @@
+{
+  "name": "ez-create-next",
+  "version": "1.0.0",
+  "description": "A tool to create projects based on my template.",
+  "main": "index.js",
+  "bin": {
+    "ez-create-next": "./index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "rimraf": "^6.0.1"
+  },
+  "keywords": [
+    "create-react-app",
+    "nextjs",
+    "template",
+    "boilerplate",
+    "generator"
+  ],
+  "author": {
+    "name": "LQTUAN",
+    "email": "lqtuan.dev@gmail.com",
+    "url": "https://github.com/LQT1102"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LQT1102/ez-create-next.git"
+  }
+}
