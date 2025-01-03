@@ -4,7 +4,7 @@ const { execSync } = require("child_process");
 const fs = require("fs");
 const path = require("path");
 
-const gitRepoUrl = "https://github.com/LQT1102/web3-game-coin-spin.git"; // Thay bằng URL repo của bạn
+const gitRepoUrl = "https://github.com/LQT1102/web3-game-coin-spin.git";
 
 const projectName = process.argv[2];
 
