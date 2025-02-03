@@ -27,6 +27,8 @@ console.log(`Creating a new project in ${projectPath}...`);
 console.log(`Cloning repository from ${gitRepoUrl}...`);
 execSync(`git clone ${gitRepoUrl} ${projectPath}`, { stdio: "inherit" });
 
+execSync(`npm i -g rimraf`)
+
 // Xóa thư mục .git để tránh thành nested git repo
 const rimraf = require("rimraf");
 rimraf.sync(path.join(projectPath, ".git"));
